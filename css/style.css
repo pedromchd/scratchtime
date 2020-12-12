@@ -1,3 +1,9 @@
-.azul {
-  color: blue;
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
 }
