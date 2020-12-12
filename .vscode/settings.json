@@ -7,9 +7,9 @@
     120
   ],
   "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
+  // "editor.tabSize": 2,
   "editor.formatOnSave": false,
-  "editor.fontFamily": "'Fira Code', 'Source Code Pro', 'Consolas', 'Droid Sans Mono', 'monospace'",
+  // "editor.fontFamily": "'Fira Code', 'Source Code Pro', 'Consolas', 'Droid Sans Mono', 'monospace'",
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
   "vsicons.dontShowNewVersionMessage": true,
@@ -37,9 +37,9 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "atomKeymap.promptV3Features": true,
   "editor.formatOnPaste": true,
-  "editor.lineNumbers": "off",
+  // "editor.lineNumbers": "off",
   "workbench.activityBar.visible": true,
-  "workbench.sideBar.location": "right",
+  // "workbench.sideBar.location": "right",
   "editor.renderWhitespace": "boundary",
   "editor.renderControlCharacters": true,
 }
