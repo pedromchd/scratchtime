@@ -33,7 +33,7 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  "workbench.iconTheme": "vscode-icons",
+  // "workbench.iconTheme": "eq-material-theme-icons",
   "editor.multiCursorModifier": "ctrlCmd",
   "atomKeymap.promptV3Features": true,
   "editor.formatOnPaste": true,
