@@ -1,4 +1,19 @@
+/* testando estilos */
+main div {
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+  text-align: justify;
+  border: 2px solid var(--accent-color);
+  border-radius: 15px;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-indent: 2.5em;
 }
