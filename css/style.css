@@ -14,6 +14,18 @@ html, body {
 }
 
 /* testando estilos */
+header {
+  width: fit-content;
+  margin: 2vh auto 2vh auto;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 main div {
   margin: 1rem;
   padding: 1rem;
@@ -39,17 +51,4 @@ b {
 
 i {
   font-style: italic;
-<<<<<<< HEAD
-}
-
-header {
-  width: fit-content;
-  margin: 2vh auto 2vh auto;
-}
-
-main {
-  width: 90%;
-  margin: 0 auto 0 auto;
-  display: flex;
-  justify-content: center;
 }
