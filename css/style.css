@@ -14,7 +14,6 @@ html, body {
 }
 
 /* testando estilos */
-
 main div {
   margin: 1rem;
   padding: 1rem;
@@ -40,6 +39,7 @@ b {
 
 i {
   font-style: italic;
+<<<<<<< HEAD
 }
 
 header {
