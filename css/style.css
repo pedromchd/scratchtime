@@ -1,3 +1,55 @@
+@font-face {
+  font-family: Scratch;
+  src: url('../fonts/Scratch.ttf');
+}
+
+* {
+  --main: #25AFF4;
+  --sec: #FDB825;
+  --third: #FFFFFF;
+}
+
+html, body {
+  background-color: var(--main);
+}
+
+/* testando estilos */
+
+main div {
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+  text-align: justify;
+  border: 2px solid var(--accent-color);
+  border-radius: 15px;
+}
+
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-indent: 2.5em;
+}
+
+b {
+  font-weight: 700;
+}
+
+i {
+  font-style: italic;
+}
+
+header {
+  width: fit-content;
+  margin: 2vh auto 2vh auto;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
 }
