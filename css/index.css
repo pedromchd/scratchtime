@@ -2,6 +2,7 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
+  --accent-color: #25b0f5;
 }
 
 * {
