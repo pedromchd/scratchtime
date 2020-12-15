@@ -52,3 +52,34 @@ b {
 i {
   font-style: italic;
 }
+
+/* testando containers */
+.container {
+  width: 75%;
+  height: 4rem;
+  overflow: hidden;
+  border: 2px solid var(--third);
+  border-radius: 10px;
+  background-color: var(--sec);
+  display: flex;
+  flex-direction: column;
+}
+
+.container.active {
+  height: fit-content;
+  overflow: visible;
+}
+
+.arrow {
+  align-self: flex-end;
+  width: 10%;
+  position: relative;
+  top: 0;
+  right: 0rem;
+  z-index: 100;
+}
+
+.container p, .container h1 {
+  position: relative;
+  top: -1.25rem;
+}
