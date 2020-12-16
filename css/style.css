@@ -29,7 +29,7 @@ main {
   justify-content: center;
 } */
 
-header {
+/* header {
   padding: 1rem;
   background-color: var(--main);
   display: flex;
@@ -37,11 +37,45 @@ header {
 }
 
 #ifrs {
-  width: 250px;
+  max-width: 250px;
 }
 
 #logo {
-  width: 250px;
+  max-width: 250px;
+} */
+
+header {
+  height: 150px;
+  background-color: var(--main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main div {
+  width: 50%;
+  height: 4rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: justify;
+  border: 2px solid var(--sec);
+  border-radius: 15px;
+  overflow-y: hidden;
+}
+
+.active {
+  height: fit-content;
+  overflow-y: visible;
 }
 
 h1 {
