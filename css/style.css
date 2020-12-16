@@ -45,15 +45,17 @@ main {
 } */
 
 header {
-  height: 150px;
+  width: 100%;
   background-color: var(--main);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 
 #logo {
-  width: 200px;
+  height: 12.8vh;
+  margin: 1.6vh 0;
 }
 
 main {
