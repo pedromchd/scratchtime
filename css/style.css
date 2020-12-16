@@ -56,6 +56,7 @@ header {
 #logo {
   height: 12.8vh;
   margin: 1.6vh 0;
+  user-select: none;
 }
 
 main {
@@ -64,26 +65,33 @@ main {
   align-items: center;
 }
 
-main div {
+div.content-box {
   width: 50%;
-  height: 4rem;
+  height: 3.7rem;
   padding: 1rem;
-  margin: 1rem;
-  text-align: justify;
   border: 2px solid var(--sec);
   border-radius: 15px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
   overflow-y: hidden;
 }
 
-.active {
+.content-box.active {
   height: fit-content;
   overflow-y: visible;
+}
+
+.content-box iframe {
+  margin: 3% auto;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
   margin-bottom: 1rem;
+  user-select: none;
 }
 
 p {
