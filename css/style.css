@@ -26,6 +26,7 @@ header {
   /* justify-content: center; */
   align-items: center;
   position: fixed;
+  z-index: 100;
 }
 
 #ifrs {
@@ -92,10 +93,6 @@ div.content-box:first-of-type {
   overflow-y: visible;
 }
 
-.content-box.active h1 {
-  transform: translateX(2.5rem);
-}
-
 .content-box iframe {
   margin: 3% auto;
   width: 30vw;
@@ -105,10 +102,14 @@ div.content-box:first-of-type {
 
 div h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   width: fit-content;
   margin-bottom: 1rem;
   user-select: none;
+}
+
+.content-box.active h1 {
+  transform: translateX(2.5rem);
 }
 
 div img.arrow {
