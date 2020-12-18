@@ -109,7 +109,7 @@ div.content-box {
 
 div h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2vw;
   width: fit-content;
   margin-bottom: 1rem;
   user-select: none;
@@ -117,7 +117,8 @@ div h1 {
 
 div img.arrow {
   margin-left: auto;
-  height: 3.2vh;
+  margin-top: 1.2%;
+  height: 2vh;
   user-select: none;
 }
 
@@ -135,7 +136,7 @@ i {
 
 @media screen and (max-width:1101px) {
   body {
-    font-size: 1.5vh;
+    font-size: 1.5vw;
   }
   #ifrs {
     margin-left: 3.5vw;
@@ -148,10 +149,10 @@ i {
     display: block;
   }
   div.content-box {
-    width: 60%;
+    width: 70%;
   }
   div h1 {
-    font-size: 2.3vh;
+    font-size: 3vw;
   }
   .content-box iframe {
     width: 50vw;
@@ -177,7 +178,7 @@ i {
     width: 80%;
   }
   div h1 {
-    font-size: 2.2vh;
+    font-size: 3vw;
   }
   .content-box iframe {
     width: 70vw;
