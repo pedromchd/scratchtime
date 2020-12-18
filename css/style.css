@@ -42,16 +42,25 @@ header {
 #ifrs {
   position: fixed;
   /* max-width: 13vw; */
+  /* height: fit-content; */
   height: 9.6vh;
   margin-left: 1.5vw;
   filter: brightness(10);
 }
 
 #ifrs img {
-  /* width: 100%; */
-  height: 100%;
+  height: 9.6vh;
   display: block;
+  position: absolute;
   user-select: none;
+}
+
+#ifrs img#long {
+  visibility: visible;
+}
+
+#ifrs img#short {
+  display: none;
 }
 
 #logo {
@@ -84,6 +93,8 @@ div.content-box {
   overflow: hidden;
 }
 
+/* width="560" height="315" */
+
 .content-box.active {
   height: fit-content;
   overflow-y: visible;
@@ -91,6 +102,9 @@ div.content-box {
 
 .content-box iframe {
   margin: 3% auto;
+  width: 30vw;
+  height: 16.875vw;
+  /* height: max-content; */
 }
 
 h1 {
@@ -110,4 +124,56 @@ b {
 
 i {
   font-style: italic;
+}
+
+@media screen and (max-width:1101px) {
+  body {
+    font-size: 1.5vh;
+  }
+  #ifrs {
+    margin-left: 3.5vw;
+  }
+  #ifrs img#long {
+    display: none;
+  }
+  #ifrs img#short {
+    visibility: visible;
+    display: block;
+  }
+  div.content-box {
+    width: 60%;
+  }
+  h1 {
+    font-size: 2.3vh;
+  }
+  .content-box iframe {
+    width: 50vw;
+    height: 28.125vw;
+  }
+}
+
+@media screen and (max-width:751px) {
+  body {
+    font-size: 2vh;
+  }
+  #ifrs {
+    margin-left: 3.5vw;
+  }
+  #ifrs img#long {
+    display: none;
+  }
+  #ifrs img#short {
+    visibility: visible;
+    display: block;
+  }
+  div.content-box {
+    width: 80%;
+  }
+  h1 {
+    font-size: 2.2vh;
+  }
+  .content-box iframe {
+    width: 70vw;
+    height: 39.375vw;
+  }
 }
