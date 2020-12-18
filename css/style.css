@@ -10,25 +10,14 @@ html, body {
   line-height: 1.5rem;
   --main: #25B0F5;
   --sec: #fcb928;
+  --secA: #fcb9281a;
   --third: #FFFFFF;
 }
 
 * {
   box-sizing: border-box;
-  /* transition: all 0.5s; */
+  transition: all 0.5s;
 }
-
-/* header {
-  padding: 1rem;
-  background-color: var(--main);
-  display: flex;
-  justify-content: space-between;
-}
-
-
-#logo {
-  max-width: 250px;
-} */
 
 header {
   width: 100%;
@@ -84,20 +73,27 @@ div.content-box {
   width: 50%;
   height: 3.7rem;
   padding: 1rem;
-  border: 2px solid var(--sec);
-  border-radius: 15px;
-  margin: 1rem;
+  border-left: 3px solid var(--sec);
+  background-color: var(--secA);
+  /* border-radius: 15px; */
+  margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   text-align: justify;
   overflow: hidden;
 }
 
-/* width="560" height="315" */
+div.content-box:first-of-type {
+  margin-top: 1.5rem;
+}
 
 .content-box.active {
   height: fit-content;
   overflow-y: visible;
+}
+
+.content-box.active h1 {
+  transform: translateX(2.5rem);
 }
 
 .content-box iframe {
@@ -109,7 +105,7 @@ div.content-box {
 
 div h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   width: fit-content;
   margin-bottom: 1rem;
   user-select: none;
@@ -120,6 +116,11 @@ div img.arrow {
   margin-top: 1.2%;
   height: 2vh;
   user-select: none;
+  margin-top: 5px;
+}
+
+div.content-box.active img.arrow {
+  transform: rotate(0.5turn);
 }
 
 p {
