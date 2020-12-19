@@ -77,7 +77,7 @@ div.content-box {
   padding: 1rem;
   border-left: 3px solid var(--sec);
   background-color: var(--secA);
-  /* border-radius: 15px; */
+  border-radius: 0 10px 10px 0;
   margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
