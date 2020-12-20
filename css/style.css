@@ -16,7 +16,7 @@ html, body {
 
 * {
   box-sizing: border-box;
-  transition: all 0.5s;
+  transition: transform 0.5s;
   z-index: 50;
 }
 
@@ -44,14 +44,6 @@ header {
   display: block;
   position: absolute;
   user-select: none;
-}
-
-#ifrs img#long {
-  visibility: visible;
-}
-
-#ifrs img#short {
-  display: none;
 }
 
 #logo {
@@ -144,12 +136,8 @@ i {
   #ifrs {
     margin-left: 3.5vw;
   }
-  #ifrs img#long {
-    display: none;
-  }
-  #ifrs img#short {
-    visibility: visible;
-    display: block;
+  #ifrs img {
+    content: url("../images/ifrs-white.png");
   }
   .content-box {
     width: 70%;
@@ -170,18 +158,11 @@ i {
   #ifrs {
     margin-left: 3.5vw;
   }
-  #ifrs img#long {
-    display: none;
-  }
-  #ifrs img#short {
-    visibility: visible;
-    display: block;
+  #ifrs img {
+    margin-left: 3vw;
   }
   .content-box {
     width: 80%;
-  }
-  .content-box h1 {
-    font-size: 3vw;
   }
   .content-box iframe {
     width: 70vw;
