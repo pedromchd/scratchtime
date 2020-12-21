@@ -117,6 +117,10 @@ h1 {
   user-select: none;
 }
 
+#info h1 {
+  font-weight: bold;
+}
+
 .content-box.active h1 {
   transform: translateX(2.5rem);
 }
