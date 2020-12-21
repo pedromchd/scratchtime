@@ -24,7 +24,7 @@ header {
   width: 100%;
   background-color: var(--main);
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 100;
@@ -40,6 +40,7 @@ header {
   /* height: fit-content; */
   height: 9.6vh;
   margin-left: 1.5vw;
+  margin-right: auto;
   filter: brightness(10);
 }
 
@@ -48,6 +49,7 @@ header {
   display: block;
   position: absolute;
   user-select: none;
+  content: url("../images/ifrslogo.png");
 }
 
 #logo {
@@ -59,6 +61,15 @@ header {
   display: block;
   height: 100%;
   user-select: none;
+}
+
+#quemsomos {
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-left: 84vw;
 }
 
 main {
@@ -98,7 +109,7 @@ main {
   /* height: max-content; */
 }
 
-.content-box h1 {
+h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.7vw;
   width: fit-content;
@@ -143,10 +154,16 @@ i {
   #ifrs img {
     content: url("../images/ifrs-white.png");
   }
+  #quemsomos {
+    text-align: center;
+    font-size: 4vw;
+    line-height: 4vw;
+    margin-left: 75vw;
+  }
   .content-box {
     width: 70%;
   }
-  .content-box h1 {
+  h1 {
     font-size: 3vw;
   }
   .content-box iframe {
