@@ -12,6 +12,7 @@ html, body {
   --sec: #fcb928;
   --secA: #fcb9281a;
   --third: #FFFFFF;
+  text-align: justify;
 }
 
 * {
@@ -88,7 +89,6 @@ main {
   margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
-  text-align: justify;
   overflow: hidden;
 }
 
