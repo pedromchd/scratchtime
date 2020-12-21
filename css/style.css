@@ -30,6 +30,10 @@ header {
   z-index: 100;
 }
 
+.spacing {
+  margin-bottom: 1.5rem;
+}
+
 #ifrs {
   position: fixed;
   /* max-width: 13vw; */
@@ -69,8 +73,8 @@ main {
   padding: 1rem;
   border-left: 3px solid var(--sec);
   background-color: var(--secA);
-  /* border-radius: 15px; */
-  margin-top: 2.3rem;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   text-align: justify;
@@ -83,8 +87,8 @@ main {
 
 .content-box.active {
   height: fit-content;
-  overflow-y: visible;
-  transform: translateX(50px);
+  /* overflow-y: visible; */
+  /* transform: translateX(50px); */
 }
 
 .content-box iframe {
