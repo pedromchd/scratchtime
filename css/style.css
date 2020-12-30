@@ -118,6 +118,7 @@ h1 {
 }
 
 #info h1 {
+  font-size: 1.5vw;
   font-weight: bold;
 }
 
@@ -170,6 +171,9 @@ i {
   h1 {
     font-size: 3vw;
   }
+  #info h1 {
+    font-size: 2.8vw;
+  }
   .content-box iframe {
     width: 50vw;
     height: 28.125vw;
@@ -180,14 +184,18 @@ i {
   body {
     font-size: 2vh;
   }
-  #ifrs {
-    margin-left: 3.5vw;
-  }
-  #ifrs img {
-    margin-left: 3vw;
+  #quemsomos {
+    width: min-content;
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-left: 81vw;
   }
   .content-box {
     width: 80%;
+  }
+  h1 {
+    font-size: 3.3vw;
+    font-weight: bolder;
   }
   .content-box iframe {
     width: 70vw;
