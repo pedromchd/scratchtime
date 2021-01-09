@@ -46,7 +46,7 @@ header {
 }
 
 #ifrs img {
-  height: 9.6vh;
+  height: 100%;
   display: block;
   position: absolute;
   user-select: none;
@@ -102,7 +102,7 @@ main {
   /* transform: translateX(50px); */
 }
 
-.content-box iframe {
+iframe {
   margin: 3% auto;
   width: 30vw;
   height: 16.875vw;
@@ -174,7 +174,7 @@ i {
   #info h1 {
     font-size: 2.8vw;
   }
-  .content-box iframe {
+  iframe {
     width: 50vw;
     height: 28.125vw;
   }
@@ -182,13 +182,16 @@ i {
 
 @media screen and (max-width:751px) {
   body {
-    font-size: 2vh;
+    font-size: 4vw;
+  }
+  #logo {
+    height: Calc(12.8vh - 2vw);
   }
   #quemsomos {
     width: min-content;
     font-size: 5vw;
     font-weight: bolder;
-    margin-left: 81vw;
+    margin-left: 77vw;
   }
   .content-box {
     width: 80%;
@@ -197,7 +200,10 @@ i {
     font-size: 3.3vw;
     font-weight: bolder;
   }
-  .content-box iframe {
+  #info h1 {
+    font-size: 4vw;
+  }
+  iframe {
     width: 70vw;
     height: 39.375vw;
   }
