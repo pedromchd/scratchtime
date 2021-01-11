@@ -111,10 +111,18 @@ iframe {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.7vw;
+  font-size: Calc(1.7vw - 0.3vh);
   width: fit-content;
   margin-bottom: 1rem;
   user-select: none;
+}
+
+h2 {
+  margin: 0.6rem 0;
+  color: var(--sec);
+  width: 100%;
+  font-size: Calc(1.6vw - 0.4vh);
+  font-weight: bold;
 }
 
 #info h1 {
@@ -139,6 +147,7 @@ h1 {
 
 p {
   text-indent: 2.5em;
+  width: 100%;
 }
 
 b {
@@ -171,6 +180,9 @@ i {
   h1 {
     font-size: 3vw;
   }
+  h2 {
+    font-size: 1.7vw;
+  }
   #info h1 {
     font-size: 2.8vw;
   }
@@ -182,7 +194,7 @@ i {
 
 @media screen and (max-width:751px) {
   body {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   #logo {
     height: Calc(12.8vh - 2vw);
@@ -199,6 +211,9 @@ i {
   h1 {
     font-size: 3.3vw;
     font-weight: bolder;
+  }
+  h2 {
+    font-size: 3.1vw;
   }
   #info h1 {
     font-size: 4vw;
