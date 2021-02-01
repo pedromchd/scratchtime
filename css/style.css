@@ -109,7 +109,7 @@ iframe {
   /* height: max-content; */
 }
 
-#iframepdf {
+.iframepdf {
   width: 70vw;
   height: 30vw;
 }
